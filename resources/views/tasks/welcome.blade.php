@@ -1,4 +1,7 @@
+
+
 <!doctype html>
+
 <html lang="{{ app()->getLocale() }}">
     <head>
         <meta charset="utf-8">
@@ -65,6 +68,7 @@
         </style>
     </head>
     <body>
+        
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
